@@ -14,7 +14,10 @@ public class StackTest {
         thestack.push(25);
         thestack.push(35);
 
+
         for(int i=0; i<10; i++){
+            // print the top node
+            System.out.println(thestack.stackArray[thestack.top]);
             System.out.println(thestack.stackArray[i]);
         }
     }

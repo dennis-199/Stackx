@@ -1,7 +1,7 @@
 public class StackX {
     private int maxSize; // size of stack array
     public long[] stackArray;
-    private int top; // top of stack
+    public int top; // top of stack
     //--------------------------------------------------------------
     public StackX(int s) // constructor
     {
