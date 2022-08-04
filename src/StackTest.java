@@ -12,12 +12,17 @@ public class StackTest {
         thestack.push(300);
         thestack.push(45);
         thestack.push(25);
-        thestack.push(35);
+        thestack.push(33);
+
+        // remove item from the top of the stack
+        thestack.pop();
+        // print the top node
+        System.out.println(thestack.stackArray[thestack.top]);
+
 
 
         for(int i=0; i<10; i++){
-            // print the top node
-            System.out.println(thestack.stackArray[thestack.top]);
+
             System.out.println(thestack.stackArray[i]);
         }
     }
