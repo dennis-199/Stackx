@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40c82331-7d8f-478f-bb34-5dcaf80655b4" name="Changes" comment="stack array">
+    <list default="true" id="40c82331-7d8f-478f-bb34-5dcaf80655b4" name="Changes" comment="top of stack">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/StackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StackTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StackX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StackX.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659547061980</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="top of stack">
+      <created>1659616551993</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1659616551993</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -107,6 +115,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="stack array" />
-    <option name="LAST_COMMIT_MESSAGE" value="stack array" />
+    <MESSAGE value="top of stack" />
+    <option name="LAST_COMMIT_MESSAGE" value="top of stack" />
   </component>
 </project>

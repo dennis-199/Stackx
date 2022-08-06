@@ -1,10 +1,11 @@
 public class StackX {
-    private int maxSize; // size of stack array
+    public int maxSize; // size of stack array
     public long[] stackArray;
     public int top; // top of stack
     //--------------------------------------------------------------
     public StackX(int s) // constructor
     {
+
         maxSize = s; // set array size
         stackArray = new long[maxSize]; // create array
         top = -1; // no items yet
@@ -33,6 +34,11 @@ public class StackX {
     public boolean isFull() // true if stack is full
     {
         return (top == maxSize-1);
+
+    }
+    // find the size of the array
+    public int size() {
+        return top + 1;
     }
 //--------------------------------------------------------------
 }
